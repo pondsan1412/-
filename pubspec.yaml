@@ -1,0 +1,39 @@
+name: practice_1
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  torch_light: 1.1.0
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.0.20
+  flutter_launcher_icons: ^0.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png" # ใส่ path ไปยังไอคอนที่คุณต้องการใช้
+
+flutter:
+  uses-material-design: true
+
+  # การเพิ่มฟอนต์ในส่วนของ flutter
+  fonts:
+    - family: Sarabun
+      fonts:
+        - asset: assets/fonts/Sarabun-Regular.ttf
+
+  # การเพิ่ม assets
+  assets:
+    - assets/fonts/
